@@ -9,14 +9,13 @@
     <meta name="Ethan Choi Portfolio" content="">
     <meta name="Ethan Choi" content="">
 
-    <title>Choi Web Design and Development</title>
+    <title>Ethan Choi Web Design and Development</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Ionic icons -->
     <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
-
 
     <!-- Devicon icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
@@ -26,7 +25,7 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Raleway:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,7 +44,7 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >E. Choi Portfolio</a>
+                <a href="#top"  onclick = $("#menu-close").click(); >Think Media</a>
             </li>
             <li>
                 <a href="#top" onclick = $("#menu-close").click(); >Home</a>
@@ -67,11 +66,9 @@
 
     <!-- Header -->
     <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>Choi Design &amp; Dev</h1>
-            <h4>Let's make something great together</h4>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        <div id="top_content" class="text-vertical-center">
+            <h1>Think Media</h1>
+            <h4>Let's make something great together!</h4>
         </div>
     </header>
 
@@ -90,7 +87,7 @@
                           <h4>
                               <strong>Design</strong>
                           </h4>
-                          <p>From the most modern and responsive web sites to higly functional business applications, I work closely with my clients to make eye-catching applications that meets their needs.</p>
+                          <p>From modern and responsive web sites to functional business applications, I work closely with my clients to make effective products that advance their goals.</p>
                       </div>
                   </div>
                   <div class="col-md-4 col-sm-6">
@@ -101,7 +98,7 @@
                           <h4>
                               <strong>Develop</strong>
                           </h4>
-                          <p>Bug free, well organized and clean code. Foundations to functional web applications.</p>
+                          <p>Where design meets functionality. Your application is grounded on well written and organized code.</p>
                       </div>
                   </div>
                   <div class="col-md-4 col-sm-6">
@@ -112,7 +109,7 @@
                           <h4>
                               <strong>Deploy</strong>
                           </h4>
-                          <p>Your web application will be hosted Amazon Web Services' reliable and secure servers. Widely used by Fortune 100s and startsup AWS's offering are unparralled in the industry.</p>
+                          <p>Hosted on Amazon Web Services' reliable and secure servers. Used by Fortune 100s, and startups alike, AWS's offering are unparralled in the industry.</p>
                       </div>
                   </div>
               </div>
@@ -204,9 +201,17 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
+                              <div class="imgWrap">
+                                <img class="img-portfolio img-responsive" src="img/hello_seattle.jpg">
+                                <div class="imgDescription">
+                                  <h3>Hello Seattle!</h3>
+                                  <p>Fun application that allows tour guides to create profiles and advertise tours of Seattle. Travelers can also create profiles to reserve tours. Incorporates all aspects of CRUD (create, read, update, destroy) functionality.</p><br>
+                                  <p>Technologies: Ruby on Rails, Postgres</p><br>
+                                  <a href="https://github.com/etchoi/emerald_city_trekker.git">
+                                    <button class="btn btn-secondary-outline btn-small" type="button" name="button">GitHub</button>
+                                  </a>
+                                </div>
+                              </div>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -232,6 +237,7 @@
                         </div>
                     </div>
                     <!-- /.row (nested) -->
+
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -246,8 +252,8 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3>Get in touch!</h3>
-                    <a href="mailto:ethanjchoi@gmail.com" class="btn btn-lg btn-light">Email</a>
-                    <a href="https://www.facebook.com/ethan.choi.206" class="btn btn-lg btn-dark">Facebook</a>
+                    <a href="mailto:ethanjchoi@gmail.com" class="btn btn-lg btn-light contact-me"><i class="fa fa-envelope-o fa-fw"></i></a>
+                    <a href="https://www.facebook.com/ethan.choi.206" class="btn btn-lg btn-dark contact-me"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -259,11 +265,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Ethan Choi</strong>
-                    </h4>
                     <p>Seattle, WA 98118</p>
-                      <i class="fa fa-phone fa-fw"></i> +1 206.965.9930</li>
-                      <i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:ethanjchoi@gmail.com">name@example.com</a>
+                      <i class="fa fa-phone fa-fw"></i> +1 206.965.9930<br>
+                      <i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:ethanjchoi@gmail.com">ethanjchoi@gmail.com</a>
                     <br>
                     <hr class="small">
                     <p class="text-muted">Copyright &copy; Ethan Choi 2016</p>
