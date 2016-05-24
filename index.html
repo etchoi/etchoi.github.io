@@ -67,9 +67,10 @@
     <!-- Header -->
     <header id="top" class="header">
         <div id="top_content" class="text-vertical-center">
+          <div id="welcome">
             <h1>Smart Design, Rich Functionality</h1>
-            <h4>Let's make something great together!</h4>
-            <h1>我是金钱主义者</h1>
+            <h3>Let's make something great together!</h3>
+          </div>
         </div>
     </header>
 
@@ -77,10 +78,10 @@
     <section id="services" class="about">
       <div class="container">
           <div class="row text-center">
-              <div class="col-lg-10 col-lg-offset-1">
+              <div class="col-lg-12 text-center">
                   <h1>Services</h1>
                   <br>
-                  <div class="col-md-4 col-sm-9 col-xs-9">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
                       <div class="service-item">
                           <span class="fa-stack fa-4x">
                           <i class="ion-ios-color-wand-outline"></i>
@@ -91,7 +92,7 @@
                           <p>From modern and responsive web sites to functional business applications, I work closely with my clients to make effective products that advance their goals.</p>
                       </div>
                   </div>
-                  <div class="col-md-4 col-sm-9 col-xs-9">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
                       <div class="service-item">
                           <span class="fa-stack fa-4x">
                           <i class="icon-lg ion-ios-compose-outline"></i>
@@ -102,7 +103,7 @@
                           <p>Where design meets functionality. Your application is grounded on well written and organized code.</p>
                       </div>
                   </div>
-                  <div class="col-md-4 col-sm-9 col-xs-9">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
                       <div class="service-item">
                           <span class="fa-stack fa-4x">
                           <i class="icon-lg ion-ios-cloud-upload-outline"></i>
@@ -110,7 +111,7 @@
                           <h4>
                               <strong>Deploy</strong>
                           </h4>
-                          <p>Hosted on Amazon Web Services' reliable and secure servers. Used by Fortune 100s, and startups alike, AWS's offering are unparralled in the industry.</p>
+                          <p>Hosted on Amazon Web Services' reliable and secure servers. Used by Fortune 500s, and startups alike, AWS's offering are unparralled in the industry.</p>
                       </div>
                   </div>
               </div>
@@ -139,54 +140,8 @@
     <aside class="callout">
         <div class="text-vertical-center">
           <div class="row technologies_row">
-              <div class="col-md-3 col-sm-3">
-                  <div class="service-item">
-                      <span class="fa-stack fa-4x">
-                      <i class="icon-lg ion-android-phone-portrait"></i>
-                      </span>
-                      <h4>
-                          <strong>Responsive Design</strong>
-                      </h4>
-                      <p>Web design aimed at creating sites that optimize viewing and interaction across a wide range of devices (from desktop computer monitors to mobile phones)</p>
-                      <a href="#" class="btn btn-light">Learn More</a>
-                  </div>
-              </div>
-              <div class="col-md-3 col-sm-3">
-                  <div class="service-item">
-                      <span class="fa-stack fa-4x">
-                      <i class="devicon-rails-plain"></i>
-                  </span>
-                      <h4>
-                          <strong>Ruby on Rails</strong>
-                      </h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                      <a href="#" class="btn btn-light">Learn More</a>
-                  </div>
-              </div>
-              <div class="col-md-3 col-sm-3">
-                  <div class="service-item">
-                      <span class="fa-stack fa-4x">
-                        <i class="devicon-angularjs-plain"></i>
-                  </span>
-                      <h4>
-                          <strong>Angular</strong>
-                      </h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                      <a href="#" class="btn btn-light">Learn More</a>
-                  </div>
-              </div>
-              <div class="col-md-3 col-sm-3">
-                  <div class="service-item">
-                      <span class="fa-stack fa-4x">
-                        <i class="devicon-mongodb-plain"></i>
-                  </span>
-                      <h4>
-                          <strong>MongoDB</strong>
-                      </h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                      <a href="#" class="btn btn-light">Learn More</a>
-                  </div>
-              </div>
+            <img class="img-circle" src="img/headshot.jpg">
+
           </div>
           <!-- /.row (nested) -->
         </div>
@@ -200,14 +155,15 @@
                     <h2>My Work</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-12">
                             <div class="portfolio-item">
                               <div class="imgWrap">
                                 <img class="img-portfolio img-responsive" src="img/hello_seattle.jpg">
                                 <div class="imgDescription">
                                   <h3>Hello Seattle!</h3>
                                   <p>Tour guide reservation application with full CRUD functionality, including creating profiles (admin and user), creating and updating tours, and requesting reservations.</p><br>
-                                  <p>Technologies: Ruby on Rails, Bootstrap, and Postgres</p><br>
+                                  <p>Technologies:   <span class="fa-stack fa-4x">
+                                    <i class="devicon-rails-plain"></i>Ruby on Rails, Bootstrap, and Postgres</p><br>
                                   <a href="https://github.com/etchoi/emerald_city_trekker.git">
                                     <button class="btn btn-secondary-outline btn-small" type="button" name="button">GitHub</button>
                                   </a>
@@ -215,21 +171,29 @@
                               </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                        <div class="col-md-6 col-sm-12">
+                          <div class="portfolio-item">
+                            <div class="imgWrap">
+                              <img class="img-portfolio img-responsive" src="img/cyclepath.jpg">
+                              <div class="imgDescription">
+                                <h3>Hello Seattle!</h3>
+                                <p>Tour guide reservation application with full CRUD functionality, including creating profiles (admin and user), creating and updating tours, and requesting reservations.</p><br>
+                                <p>Technologies: Ruby on Rails, Bootstrap, and Postgres</p><br>
+                                <a href="https://github.com/etchoi/emerald_city_trekker.git">
+                                  <button class="btn btn-secondary-outline btn-small" type="button" name="button">GitHub</button>
                                 </a>
+                              </div>
                             </div>
+                          </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-12">
                             <div class="portfolio-item">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-12">
                             <div class="portfolio-item">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">

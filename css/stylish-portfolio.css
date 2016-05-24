@@ -30,7 +30,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 4.5em;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 /* Custom Button Styles */
@@ -168,8 +168,16 @@ hr.small {
 
 #top_content {
   color: white;
-  font-size: 1.5em;
   font: "Raleway";
+}
+
+#welcome {
+  background-color: #f2efef;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 60%;
+  min-height: 10%;
+  border-radius: 10px;
 }
 
 /* Services */
@@ -202,6 +210,11 @@ hr.small {
 
 #technologies_content {
   font-size: 1.3em;
+}
+
+.img-circle {
+    border-radius: 35%;
+    float: left;
 }
 
 .service-item {
@@ -307,18 +320,6 @@ hr.small {
 
 .call-to-action .btn {
     margin: 10px;
-}
-
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
 }
 
 /* Footer */
