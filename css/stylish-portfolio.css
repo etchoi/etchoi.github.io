@@ -172,8 +172,6 @@ hr.small {
 }
 
 #welcome {
-  background-color: #f2efef;
-  background: rgba(0, 0, 0, 0.1);
   margin: 0 auto;
   max-width: 60%;
   min-height: 10%;
