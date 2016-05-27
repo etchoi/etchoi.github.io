@@ -203,42 +203,30 @@ hr.small {
 /* Technologies */
 
 .services {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
-#technologies_content {
+.profile_content {
   font-size: 1.3em;
 }
 
 .img-circle {
-    border-radius: 35%;
-    float: left;
+  border-radius: 35%;
+}
+.profile_pic {
+  display: inline-block;
+  margin: 3% 0 3% 0;
+}
+.about_me {
+  display: inline-block;
+  margin-top: 5%;
+  padding-bottom: 5%;
 }
 
 .service-item {
     margin-bottom: 30px;
 }
 
-.ion-android-phone-portrait {
-  font-size: 10rem;
-}
-
-.devicon-rails-plain {
-  font-size: 8rem;
-}
-
-.devicon-angularjs-plain {
-  font-size: 8rem;
-}
-
-.devicon-mongodb-plain {
-  font-size: 8rem;
-}
-
-.technologies_row {
-  width: 90%;
-  margin: 0 auto;
-}
 
 /* Callout */
 
@@ -266,6 +254,17 @@ hr.small {
 
 .img-portfolio {
     margin: 0 auto;
+}
+.devicon {
+  font-size: 3em;
+  margin: 2%;
+}
+.port_button {
+  margin: 5% 3% 0% 3%;
+}
+.port_button button {
+  min-width: 20%;
+  margin: 2% 3% 3% 3%;ß
 }
 
 /*.img-portfolio:hover {
