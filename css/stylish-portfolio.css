@@ -35,7 +35,7 @@ body {
 
 /* Custom Button Styles */
 
-.btn-dark {
+/*.btn-dark {
     border-radius: 0;
     color: #fff;
     background-color: rgba(0,0,0,0.4);
@@ -59,16 +59,16 @@ body {
 .btn-light:active {
     color: #333;
     background-color: rgba(255,255,255,0.8);
-}
+}*/
 
 /* Custom Horizontal Rule */
 
-hr.small {
+/*hr.small {
     max-width: 100px;
-}
+}*/
 
 /* Side Menu */
-
+/*
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
@@ -150,7 +150,7 @@ hr.small {
 
 .toggle {
     margin: 5px 5px 0 0;
-}
+}*/
 
 /* Header */
 
