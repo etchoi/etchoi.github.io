@@ -26,7 +26,7 @@ body {
     vertical-align: middle;
 }
 
-.text-vertical-center h1 {
+.text-vertical-center h2 {
     margin: 0;
     padding: 0;
     font-size: 4.5em;
@@ -169,6 +169,7 @@ hr.small {
 #top_content {
   color: white;
   font: "Raleway";
+  margin-top: 30%;
 }
 
 #welcome {
@@ -176,6 +177,9 @@ hr.small {
   max-width: 60%;
   min-height: 10%;
   border-radius: 10px;
+}
+#welcome p {
+  font-size: 2em;
 }
 
 /* Services */
@@ -215,7 +219,7 @@ hr.small {
 }
 .profile_pic {
   display: inline-block;
-  margin: 3% 0 3% 0;
+  margin: 7% -5% 3% 0;
 }
 .about_me {
   display: inline-block;
